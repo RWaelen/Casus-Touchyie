@@ -5,7 +5,7 @@
              x:Class="Touchyie.MainPage">
 
     <RelativeLayout BackgroundColor="#efeded">
-        <!--NavigatieBalk fsdvrsgfsd-->
+        <!--NavigatieBalk fsdvrsgfsder-->
         <RelativeLayout  BackgroundColor="Red"
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
