@@ -1,0 +1,116 @@
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.pdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.apk
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android-Signed.apk
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\FormsViewGroup.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\FormsViewGroup.pdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.csprojResolveAssemblyReference.cache
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.csproj.CoreCompileInputs.cache
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.MainPage.xaml.g.cs
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.App.xaml.g.cs
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.InlogPage.xaml.g.cs
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.PlayerPage.xaml.g.cs
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.YoutubePage.xaml.g.cs
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.NetflixPage.xaml.g.cs
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.TvPage.xaml.g.cs
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.dll
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.pdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\bin\Touchyie.Android.apk
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\icon.png
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\layout\tabbar.xml
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\layout\toolbar.xml
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\values\styles.xml
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\youtube_logo.jpg
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\netflix_logo.jpg
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\profiel_foto.jpg
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\tv_icon.png
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\avatar_demo.png
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\R.cs.flag
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\uploadflags.txt
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.dll.mdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Touchyie.Android.dll.mdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\rikwa\Dropbox\Casus mobile J2B1\Mobile Application\App\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.pdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.apk
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android-Signed.apk
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\FormsViewGroup.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\FormsViewGroup.pdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.csprojResolveAssemblyReference.cache
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.csproj.CoreCompileInputs.cache
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.MainPage.xaml.g.cs
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.App.xaml.g.cs
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.InlogPage.xaml.g.cs
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.PlayerPage.xaml.g.cs
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.YoutubePage.xaml.g.cs
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.NetflixPage.xaml.g.cs
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.TvPage.xaml.g.cs
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.dll
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.pdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\bin\Touchyie.Android.apk
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\icon.png
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\layout\tabbar.xml
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\layout\toolbar.xml
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\values\styles.xml
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\youtube_logo.jpg
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\netflix_logo.jpg
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\profiel_foto.jpg
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\tv_icon.png
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\avatar_demo.png
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\R.cs.flag
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\uploadflags.txt
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.dll.mdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Touchyie.Android.dll.mdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\ic_navigate_before.png
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\rondje_grijs.png
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\microfoon_icon.png
+C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.ProfilePage.xaml.g.cs
