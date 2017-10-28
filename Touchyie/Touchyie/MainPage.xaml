@@ -5,7 +5,7 @@
              x:Class="Touchyie.MainPage">
 
     <RelativeLayout BackgroundColor="#efeded">
-        <!--NavigatieBalk fsdvrsgfsder-->
+        <!--NavigatieBalk-->
         <RelativeLayout  BackgroundColor="Red"
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
@@ -91,7 +91,7 @@
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.1,
+                                            Factor=0,
                                             Constant=0}" 
                 
                 RelativeLayout.HeightConstraint =
@@ -118,7 +118,7 @@
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.107,
+                                            Factor=0.008,
                                             Constant=0}" 
                 
                 RelativeLayout.HeightConstraint =
@@ -145,7 +145,7 @@
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.14,
+                                            Factor=0.,
                                             Constant=0}" 
                 
                 RelativeLayout.HeightConstraint =
