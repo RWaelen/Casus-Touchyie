@@ -132,7 +132,7 @@
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
-                                            Factor=0.04,
+                                            Factor=0.05,
                                             Constant=0}"
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
@@ -149,90 +149,176 @@
                                             Property=Height,
                                             Factor=0.4,
                                             Constant=0}" >
-            <Image          
-                x:Name="skipRechts"
-                Source="skip_rechts.png"
-                Scale="0.3"
+                <Image          
+                x:Name="skipLinks"
+                Source="skiplinks"
+                HorizontalOptions="Start"
                 
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
-                                            Factor=0.6,
-                                            Constant=0}"
+                                            Factor=0.20,
+                                            Constant=0.10}"
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.05,
+                                            Factor=0.2,
                                             Constant=0}" 
                 
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.8,
+                                            Factor=0.15,
                                             Constant=0}" 
                 
                 RelativeLayout.WidthConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
-                                            Factor=0.3,
+                                            Factor=0.15,
                                             Constant=0}" 
                 />
-            <Image          
+               
+                <Image          
                 x:Name="playButton"
-                Source="playbutton.png"
-                Scale="0.3"
+                Source="playbutton"
+                HorizontalOptions="Center"
                 
                 RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.32,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.12,
+                                            Constant=0}" 
+                
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.35,
+                                            Constant=0}" 
+                
+                RelativeLayout.WidthConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
                                             Factor=0.35,
+                                            Constant=0}" 
+                />
+                <Image          
+                x:Name="skipRechts"
+                Source="skiprechts"
+                HorizontalOptions="End"
+                
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.65,
                                             Constant=0}"
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.05,
+                                            Factor=0.2,
                                             Constant=0}" 
                 
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.8,
+                                            Factor=0.15,
                                             Constant=0}" 
                 
                 RelativeLayout.WidthConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
-                                            Factor=0.3,
+                                            Factor=0.15,
                                             Constant=0}" 
                 />
-            <Image          
-                x:Name="skipLinks"
-                Source="skip_links.png"
-                Scale="0.3"
+                <Image          
+                x:Name="noVolume"
+                Source="volumeOff"
+                HorizontalOptions="Start"
                 
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
                                             Factor=0,
-                                            Constant=0.10}"
+                                            Constant=0}"
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.05,
+                                            Factor=0.7,
                                             Constant=0}" 
                 
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.8,
+                                            Factor=0.2,
                                             Constant=0}" 
                 
                 RelativeLayout.WidthConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
-                                            Factor=0.3,
+                                            Factor=0.2,
                                             Constant=0}" 
                 />
+                <Image          
+                x:Name="lineImage"
+                Source="Blackline.png"
+                HorizontalOptions="Center"
+                
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.3,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.7,
+                                            Constant=0}" 
+                
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.4,
+                                            Constant=0}" 
+                
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.2,
+                                            Constant=0}" 
+                />
+                <Image          
+                x:Name="volumeImage"
+                Source="volumeOn.png"
+                HorizontalOptions="End"
+                
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.8,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.7,
+                                            Constant=0}" 
+                
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.2,
+                                            Constant=0}" 
+                
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.2,
+                                            Constant=0}" 
+                />
+                
             </RelativeLayout>
         </RelativeLayout>
     </ContentPage.Content>
