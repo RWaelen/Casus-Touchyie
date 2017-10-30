@@ -6,29 +6,28 @@
         <RelativeLayout BackgroundColor="#efeded">
             <!--NavigatieBalk-->
             <RelativeLayout  BackgroundColor="Red"
-                RelativeLayout.XConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.0,
-                                            Constant=0}"
-                RelativeLayout.YConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0,
-                                            Constant=0}" 
-                RelativeLayout.WidthConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=1,
-                                            Constant=0}" 
-                RelativeLayout.HeightConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.1,
-                                            Constant=0}" >
+            RelativeLayout.XConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Width,
+                                        Factor=0.0,
+                                        Constant=0}"
+            RelativeLayout.YConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Height,
+                                        Factor=0,
+                                        Constant=0}" 
+            RelativeLayout.WidthConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Width,
+                                        Factor=1,
+                                        Constant=0}" 
+            RelativeLayout.HeightConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Height,
+                                        Factor=0.1,
+                                        Constant=0}" >
 
                 <!--Backbutton image-->
- 
                 <Image
                 x:Name="BackButton"
                 Source="ic_navigate_before.png"
@@ -55,8 +54,62 @@
                                             Factor=1,
                                             Constant=0}"
                 />
-
             </RelativeLayout>
+            <StackLayout Spacing="30" 
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.15,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.9,
+                                            Constant=0}">
+                <Image
+                    x:Name="PFP_profiel_foto"
+                    Source="avatar_demo.png"
+                    Scale="0.8"
+                    />
+                <Label
+                    Text="Gebruikersnaam"
+                    HorizontalOptions="Center"
+                    TextColor="Black"
+                    />
+                <Label
+                    Text="Leeftijd: 32"
+                    HorizontalOptions="Center"
+                    TextColor="Black"
+                    />
+                <Label
+                    Text="Geslacht: Man"
+                    HorizontalOptions="Center"
+                    TextColor="Black"
+                    />
+                <Label
+                    Text="Content restrictie: Horror, Actie"
+                    HorizontalOptions="Center"
+                    TextColor="Black"
+                    />
+                <Button
+                    x:Name="uitlogButton"
+                    Text="Uitloggen"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Red"/>
+            </StackLayout>
         </RelativeLayout>
+
     </ContentPage.Content>
+
 </ContentPage>
