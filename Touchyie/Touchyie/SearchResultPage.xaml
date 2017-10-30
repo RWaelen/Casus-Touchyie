@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Touchyie.SearchResultPage">
+    <ContentPage.Content>
+        <RelativeLayout BackgroundColor="#efeded">
+            <!--NavigatieBalk-->
+            <RelativeLayout BackgroundColor="Red"
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.1,
+                                            Constant=0}" >
+
+                <!--Backbutton image-->
+                <Image
+                x:Name="BackButton"
+                Source="ic_navigate_before.png"
+                HorizontalOptions="Start"
+                Scale="1.5"
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=1,
+                                            Constant=0}"
+                />
+                <Label                
+                    RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                    RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                    RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                    RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=1,
+                                            Constant=0}"
+                    Text="Zoekresultaten"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+
+            </RelativeLayout>
+            <RelativeLayout  BackgroundColor="Gray"
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.1,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.08,
+                                            Constant=0}" >
+
+                <BoxView 
+                BackgroundColor="#efeded"
+                Opacity="0.9"
+              
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.02,
+                                            Constant=0}" 
+                
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.97,
+                                            Constant=0}" 
+                
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                />
+                <Label                
+                    RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                    RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                    RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                    RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=1,
+                                            Constant=0}" 
+                    Text="Zoekresultaten voor: zoekterm"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+            </RelativeLayout>
+
+            <ScrollView 
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.05,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.185,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.95,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.815,
+                                            Constant=0}">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150" />
+                        <RowDefinition Height="150" />
+                        <RowDefinition Height="150" />
+                        <RowDefinition Height="150" />
+                        <RowDefinition Height="150" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image 
+                        HorizontalOptions="Start"
+                        Grid.Column="0" 
+                        Grid.Row="0"
+                        x:Name="VidThumbnail_1"
+                        Source="playvideo.png"/>
+                    <Label 
+                        Grid.Column="1"
+                        Grid.Row="0"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Start"
+                        Text="Title"
+                        TextColor="Black"/>
+
+                    <Image                          
+                        HorizontalOptions="Start"                        
+                        Grid.Column="0"
+                        Grid.Row="1"
+                        x:Name="VidThumbnail_2"
+                        Source="playvideo.png"/>
+                    <Label
+                        Grid.Column="1"
+                        Grid.Row="1" 
+                        VerticalTextAlignment="Center"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Start"
+                        Text="Title"
+                        TextColor="Black"/>
+
+                    <Image                                       
+                        HorizontalOptions="Start"         
+                        Grid.Column="0"
+                        Grid.Row="2"
+                        x:Name="VidThumbnail_3"
+                        Source="playvideo.png"/>
+                    <Label
+                        Grid.Column="1"
+                        Grid.Row="2"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Start"
+                        Text="Title"
+                        TextColor="Black"/>
+                    
+                    <Image                                       
+                        HorizontalOptions="Start"         
+                        Grid.Column="0"
+                        Grid.Row="3"
+                        x:Name="VidThumbnail_4"
+                        Source="playvideo.png"/>
+                    <Label
+                        Grid.Column="1"
+                        Grid.Row="3"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Start"
+                        Text="Title"
+                        TextColor="Black"/>
+                    
+                    <Image                                       
+                        HorizontalOptions="Start"         
+                        Grid.Column="0"
+                        Grid.Row="4"
+                        x:Name="VidThumbnail_5"
+                        Source="playvideo.png"/>
+                    <Label
+                        Grid.Column="1"
+                        Grid.Row="4"
+                        VerticalOptions="Center"
+                        HorizontalOptions="Start"
+                        Text="Title"
+                        TextColor="Black"/>
+                </Grid>
+            </ScrollView>
+        </RelativeLayout>
+    </ContentPage.Content>
+</ContentPage>
