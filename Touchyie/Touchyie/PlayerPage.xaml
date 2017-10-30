@@ -128,7 +128,7 @@
                                             Constant=0}" 
                 />
             </RelativeLayout>
-            <RelativeLayout BackgroundColor="Blue"
+            <RelativeLayout
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
@@ -263,34 +263,6 @@
                                             Constant=0}" 
                 />
                 <Image          
-                x:Name="lineImage"
-                Source="Blackline.png"
-                HorizontalOptions="Center"
-                
-                RelativeLayout.XConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.3,
-                                            Constant=0}"
-                RelativeLayout.YConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.7,
-                                            Constant=0}" 
-                
-                RelativeLayout.HeightConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.4,
-                                            Constant=0}" 
-                
-                RelativeLayout.WidthConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.2,
-                                            Constant=0}" 
-                />
-                <Image          
                 x:Name="volumeImage"
                 Source="volumeOn.png"
                 HorizontalOptions="End"
@@ -318,7 +290,34 @@
                                             Factor=0.2,
                                             Constant=0}" 
                 />
+                <Slider VerticalOptions="CenterAndExpand"
+                x:Name="slidervolume"
+                BackgroundColor="Black"
+                        
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.15,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.7,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.2,
+                                            Constant=0}" 
                 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.7,
+                                            Constant=0}" 
+                        />
+
+
             </RelativeLayout>
         </RelativeLayout>
     </ContentPage.Content>
