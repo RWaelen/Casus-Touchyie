@@ -27,7 +27,7 @@
                                             Property=Height,
                                             Factor=0.1,
                                             Constant=0}" >
-            
+
             <!--Backbutton image-->
             <Image
                 x:Name="BackButton"
