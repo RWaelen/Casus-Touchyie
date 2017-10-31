@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Touchyie.ProfilePage">
     <ContentPage.Content>
+
         <RelativeLayout BackgroundColor="#efeded">
             <!--NavigatieBalk-->
             <RelativeLayout  BackgroundColor="Red"
@@ -54,6 +55,7 @@
                                             Factor=1,
                                             Constant=0}"
                 />
+
             </RelativeLayout>
             <RelativeLayout BackgroundColor="Gray"
                  RelativeLayout.XConstraint =
@@ -106,7 +108,7 @@
                     />
 
             </RelativeLayout>
-            <ScrollView
+            <ScrollView 
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
