@@ -114,7 +114,6 @@ C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawa
 C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\rondje_grijs.png
 C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\microfoon_icon.png
 C:\Users\rikwa\Desktop\C#\Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.ProfilePage.xaml.g.cs
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.csprojResolveAssemblyReference.cache
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.csproj.CoreCompileInputs.cache
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.MainPage.xaml.g.cs
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.App.xaml.g.cs
@@ -125,8 +124,6 @@ C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\T
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.TvPage.xaml.g.cs
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.ProfilePage.xaml.g.cs
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.SearchResultPage.xaml.g.cs
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.dll
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.pdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.dll
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.pdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.apk
@@ -154,6 +151,8 @@ C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\X
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.dll
+C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.pdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\bin\Touchyie.Android.apk
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\icon.png
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\layout\tabbar.xml
@@ -176,3 +175,4 @@ C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\a
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.csprojResolveAssemblyReference.cache

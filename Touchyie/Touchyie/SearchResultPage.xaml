@@ -158,113 +158,72 @@
                     FontSize="Small"
                     />
             </RelativeLayout>
-
-            <ScrollView 
-                RelativeLayout.XConstraint =
+            <RelativeLayout
+                    RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
-                                            Factor=0.05,
+                                            Factor=0,
                                             Constant=0}"
-                RelativeLayout.YConstraint =
+                    RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
                                             Factor=0.185,
                                             Constant=0}" 
-                RelativeLayout.WidthConstraint =
+                    RelativeLayout.WidthConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
-                                            Factor=0.95,
+                                            Factor=1,
                                             Constant=0}" 
-                RelativeLayout.HeightConstraint =
+                    RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
                                             Factor=0.815,
+                                            Constant=0}" >
+                <ScrollView VerticalOptions="FillAndExpand"
+                    RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                    RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                    RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                    RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=1,
                                             Constant=0}">
+                    <ListView x:Name="SearchResults_ListView" VerticalOptions="FillAndExpand"
+                          HasUnevenRows="True">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                                        <Image
+                                         HeightRequest="100"
+                                         Source="{Binding VidThumbnail}"
+                                        />
+                                        <Label
+                                        Text="{Binding FilmName}"
+                                        TextColor="Black"
+                                        VerticalTextAlignment="Center"
+                                        HorizontalOptions="Start"
+                                        />
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </ScrollView>
+            </RelativeLayout>
 
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="150" />
-                        <RowDefinition Height="150" />
-                        <RowDefinition Height="150" />
-                        <RowDefinition Height="150" />
-                        <RowDefinition Height="150" />
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-
-                    <Image 
-                        HorizontalOptions="Start"
-                        Grid.Column="0" 
-                        Grid.Row="0"
-                        x:Name="VidThumbnail_1"
-                        Source="playvideo.png"/>
-                    <Label 
-                        Grid.Column="1"
-                        Grid.Row="0"
-                        VerticalOptions="Center"
-                        HorizontalOptions="Start"
-                        Text="Title"
-                        TextColor="Black"/>
-
-                    <Image                          
-                        HorizontalOptions="Start"                        
-                        Grid.Column="0"
-                        Grid.Row="1"
-                        x:Name="VidThumbnail_2"
-                        Source="playvideo.png"/>
-                    <Label
-                        Grid.Column="1"
-                        Grid.Row="1" 
-                        VerticalTextAlignment="Center"
-                        VerticalOptions="Center"
-                        HorizontalOptions="Start"
-                        Text="Title"
-                        TextColor="Black"/>
-
-                    <Image                                       
-                        HorizontalOptions="Start"         
-                        Grid.Column="0"
-                        Grid.Row="2"
-                        x:Name="VidThumbnail_3"
-                        Source="playvideo.png"/>
-                    <Label
-                        Grid.Column="1"
-                        Grid.Row="2"
-                        VerticalOptions="Center"
-                        HorizontalOptions="Start"
-                        Text="Title"
-                        TextColor="Black"/>
-                    
-                    <Image                                       
-                        HorizontalOptions="Start"         
-                        Grid.Column="0"
-                        Grid.Row="3"
-                        x:Name="VidThumbnail_4"
-                        Source="playvideo.png"/>
-                    <Label
-                        Grid.Column="1"
-                        Grid.Row="3"
-                        VerticalOptions="Center"
-                        HorizontalOptions="Start"
-                        Text="Title"
-                        TextColor="Black"/>
-                    
-                    <Image                                       
-                        HorizontalOptions="Start"         
-                        Grid.Column="0"
-                        Grid.Row="4"
-                        x:Name="VidThumbnail_5"
-                        Source="playvideo.png"/>
-                    <Label
-                        Grid.Column="1"
-                        Grid.Row="4"
-                        VerticalOptions="Center"
-                        HorizontalOptions="Start"
-                        Text="Title"
-                        TextColor="Black"/>
-                </Grid>
-            </ScrollView>
         </RelativeLayout>
     </ContentPage.Content>
 </ContentPage>

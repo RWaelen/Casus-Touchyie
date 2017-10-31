@@ -31,6 +31,7 @@
       <DependentUpon>PlayerPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)SearchItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SearchResultPage.xaml.cs">
       <DependentUpon>SearchResultPage.xaml</DependentUpon>
       <SubType>Code</SubType>

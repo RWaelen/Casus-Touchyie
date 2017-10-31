@@ -15,6 +15,35 @@ namespace Touchyie
 		public SearchResultPage ()
 		{
 			InitializeComponent ();
-		}
+            SearchResults_ListView.ItemsSource = new List<SearchItem>
+            {
+                new SearchItem
+                {
+                    VidThumbnail="playvideo.png",
+                    FilmName="Film"
+                },
+                new SearchItem
+                {
+                    VidThumbnail="playvideo.png",
+                    FilmName="Film"
+                },
+                new SearchItem
+                {
+                    VidThumbnail="playvideo.png",
+                    FilmName="Film"
+                },
+                new SearchItem
+                {
+                    VidThumbnail="playvideo.png",
+                    FilmName="Film"
+                },
+                new SearchItem
+                {
+                    VidThumbnail="playvideo.png",
+                    FilmName="Film"
+                },
+            };
+
+        }
 	}
 }
