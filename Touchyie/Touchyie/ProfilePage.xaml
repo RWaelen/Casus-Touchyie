@@ -55,8 +55,8 @@
                                             Constant=0}"
                 />
             </RelativeLayout>
-            <StackLayout Spacing="30" 
-                RelativeLayout.XConstraint =
+            <RelativeLayout BackgroundColor="Gray"
+                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
                                             Factor=0,
@@ -64,7 +64,7 @@
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.15,
+                                            Factor=0.1,
                                             Constant=0}" 
                 RelativeLayout.WidthConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
@@ -74,40 +74,95 @@
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.9,
+                                            Factor=0.08,
                                             Constant=0}">
-                <Image
+                
+                <Label BackgroundColor="#efeded"
+                    RelativeLayout.XConstraint =
+                        "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                    RelativeLayout.YConstraint =
+                        "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.015,
+                                            Constant=0}" 
+                    RelativeLayout.WidthConstraint =
+                        "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                    RelativeLayout.HeightConstraint =
+                        "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.98,
+                                            Constant=0}"
+                    Text="Profiel"
+                    TextColor="Black"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    Opacity="0.9"
+                    />
+
+            </RelativeLayout>
+            <ScrollView
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.18,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.82,
+                                            Constant=0}">
+                <StackLayout  Spacing="30" VerticalOptions="Center" >
+
+                    <Image
                     x:Name="PFP_profiel_foto"
                     Source="avatar_demo.png"
                     Scale="0.8"
                     />
-                <Label
+                    <Label
                     Text="Gebruikersnaam"
                     HorizontalOptions="Center"
                     TextColor="Black"
                     />
-                <Label
+                    <Label
                     Text="Leeftijd: 32"
                     HorizontalOptions="Center"
                     TextColor="Black"
                     />
-                <Label
+                    <Label
                     Text="Geslacht: Man"
                     HorizontalOptions="Center"
                     TextColor="Black"
                     />
-                <Label
+                    <Label
                     Text="Content restrictie: Horror, Actie"
                     HorizontalOptions="Center"
                     TextColor="Black"
                     />
-                <Button
+                    <Button
                     x:Name="uitlogButton"
                     Text="Uitloggen"
                     TextColor="White"
                     HorizontalOptions="Center"
                     BackgroundColor="Red"/>
-            </StackLayout>
+                </StackLayout>
+            </ScrollView>
+
         </RelativeLayout>
 
     </ContentPage.Content>
