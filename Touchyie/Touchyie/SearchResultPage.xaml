@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Touchyie.SearchResultPage">
     <ContentPage.Content>
+
         <RelativeLayout BackgroundColor="#efeded">
             <!--NavigatieBalk-->
             <RelativeLayout BackgroundColor="Red"
@@ -130,31 +131,32 @@
                                             Factor=1,
                                             Constant=0}" 
                 />
-                <Label                
+                <SearchBar BackgroundColor="LightGray"                
                     RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
-                                            Factor=0,
+                                            Factor=0.1,
                                             Constant=0}"
                     RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0,
+                                            Factor=0.1,
                                             Constant=0}" 
                     RelativeLayout.WidthConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
-                                            Factor=1,
+                                            Factor=0.8,
                                             Constant=0}" 
                     RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=1,
+                                            Factor=0.8,
                                             Constant=0}" 
-                    Text="Zoekresultaten voor: zoekterm"
-                    TextColor="Black"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"/>
+                    Placeholder="Zoekresultaten voor: zoekterm"
+                    PlaceholderColor="Gray"
+                     
+                    FontSize="Small"
+                    />
             </RelativeLayout>
 
             <ScrollView 
