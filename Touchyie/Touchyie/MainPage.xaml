@@ -55,10 +55,9 @@
                                             Factor=1,
                                             Constant=0}"
                 />
-
         </RelativeLayout>
         
-        <RelativeLayout
+        <RelativeLayout BackgroundColor="DarkGray"
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
@@ -77,35 +76,10 @@
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.25,
+                                            Factor=0.08,
                                             Constant=0}" >
             
             <!--PaginaWijzer-->
-            <BoxView
-                BackgroundColor="DarkGray"
-                RelativeLayout.XConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0,
-                                            Constant=0}"
-                RelativeLayout.YConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0,
-                                            Constant=0}" 
-                
-                RelativeLayout.HeightConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.34,
-                                            Constant=0}" 
-                
-                RelativeLayout.WidthConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=1,
-                                            Constant=0}" 
-                />
             <BoxView 
                 BackgroundColor="#efeded"
                 Opacity="0.9"
@@ -118,13 +92,13 @@
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.008,
+                                            Factor=0.02,
                                             Constant=0}" 
                 
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.325,
+                                            Factor=0.96,
                                             Constant=0}" 
                 
                 RelativeLayout.WidthConstraint =
@@ -136,11 +110,12 @@
             <Label
                 Text="Touchyie"
                 TextColor="Black"
-              
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
-                                            Factor=0.45,
+                                            Factor=0,
                                             Constant=0}"
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
@@ -151,236 +126,94 @@
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.2,
+                                            Factor=1,
                                             Constant=0}" 
                 
                 RelativeLayout.WidthConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
-                                            Factor=0.2,
+                                            Factor=1,
                                             Constant=0}" 
                 />
-            <!--ProfielFoto-->
-            <Image 
-                    x:Name="profiel_foto"
-                    Source="avatar_demo.png"
-                    VerticalOptions="Start"
-                    HorizontalOptions="Start"
-                    RelativeLayout.XConstraint =
-                        "{ConstraintExpression Type=RelativeToParent,
-                                                Property=Width,
-                                                Factor=0.04,
-                                                Constant=0}"
-                    RelativeLayout.YConstraint =
-                        "{ConstraintExpression Type=RelativeToParent,
-                                                Property=Height,
-                                                Factor=0.5,
-                                                Constant=0}" 
-                
-                    RelativeLayout.HeightConstraint =
-                        "{ConstraintExpression Type=RelativeToParent,
-                                                Property=Height,
-                                                Factor=0.85,
-                                                Constant=0}" 
-                
-                    RelativeLayout.WidthConstraint =
-                        "{ConstraintExpression Type=RelativeToParent,
-                                                Property=Width,
-                                                Factor=0.25,
-                                                Constant=0}"  
-            />
-        </RelativeLayout>
-        
 
-        <RelativeLayout
-                RelativeLayout.XConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.04,
-                                            Constant=0}"
-                RelativeLayout.YConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.4,
-                                            Constant=0}" 
-                RelativeLayout.WidthConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.9,
-                                            Constant=0}" 
-                RelativeLayout.HeightConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.4,
-                                            Constant=0}" >
-            <!--tv image die naar TvPage linkt-->
+        </RelativeLayout>
+        <Grid 
+            RelativeLayout.XConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Width,
+                                        Factor=0.04,
+                                        Constant=0}"
+            RelativeLayout.YConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Height,
+                                        Factor=0.2,
+                                        Constant=0}" 
+                
+            RelativeLayout.HeightConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Height,
+                                        Factor=0.82,
+                                        Constant=0}" 
+                
+            RelativeLayout.WidthConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Width,
+                                        Factor=0.92,
+                                        Constant=0}"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!--ProfielFoto-->
+            <Image
+                x:Name="profiel_foto"
+                Source="avatar_demo.png"
+                Grid.Row="0"
+                Grid.Column="0"
+                 />
             <Image        
                 x:Name="tvButton"
                 Source="tv_icon"
                 HorizontalOptions="Start"
-                
-                RelativeLayout.XConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0,
-                                            Constant=0}"
-                RelativeLayout.YConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.2,
-                                            Constant=0}" 
-                
-                RelativeLayout.HeightConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.5,
-                                            Constant=0}" 
-                
-                RelativeLayout.WidthConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.3,
-                                            Constant=0}" 
-                
-                />
-            <!--netflix image die naar NetflixPage linkt-->
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"/>
             <Image         
                 x:Name="netflixButton"
                 Source="netflix_logo.jpg"
                 HorizontalOptions="Center"
-                
-                RelativeLayout.XConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.327,
-                                            Constant=0}"
-                RelativeLayout.YConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.2,
-                                            Constant=0}" 
-                
-                RelativeLayout.HeightConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.5,
-                                            Constant=0}" 
-                RelativeLayout.WidthConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.345,
-                                            Constant=0}" 
+                Grid.Row="1"
+                Grid.Column="2"
+                Grid.ColumnSpan="2"
                 />
-            <!--Youtube image die naar YoutubePage linkt-->
             <Image          
                 x:Name="youtubeButton"
                 Source="youtube_logo.jpg"
                 HorizontalOptions="End"
-
-                RelativeLayout.XConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.7,
-                                            Constant=0}"
-                RelativeLayout.YConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.2,
-                                            Constant=0}" 
-                
-                RelativeLayout.HeightConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.5,
-                                            Constant=0}" 
-                
-                RelativeLayout.WidthConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.3,
-                                            Constant=0}"/>
-
-        </RelativeLayout>
-
-        <RelativeLayout  
-                RelativeLayout.XConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.04,
-                                            Constant=0}"
-                RelativeLayout.YConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.75,
-                                            Constant=0}" 
-                RelativeLayout.WidthConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.9,
-                                            Constant=0}" 
-                RelativeLayout.HeightConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.25,
-                                            Constant=0}" >
+                Grid.Row="1"
+                Grid.Column="4"
+                Grid.ColumnSpan="2"/>
             <Image 
                 x:Name="SpraakButton"
                 Source="rondje_grijs.png"
-                
-                RelativeLayout.XConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.84,
-                                            Constant=0}"
-                RelativeLayout.YConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.1,
-                                            Constant=0}" 
-                
-                RelativeLayout.HeightConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.7,
-                                            Constant=0}" 
-                
-                RelativeLayout.WidthConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.15,
-                                            Constant=0}" 
-
-                />
+                Grid.Row="2"
+                Grid.Column="5"/>
             <Image 
                 x:Name="SpraakIcon"
                 Source="microfoon_icon.png"
-                
-                RelativeLayout.XConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.855,
-                                            Constant=0}"
-                RelativeLayout.YConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.12,
-                                            Constant=0}" 
-                
-                RelativeLayout.HeightConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0.63,
-                                            Constant=0}" 
-                
-                RelativeLayout.WidthConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.12,
-                                            Constant=0}" 
-
-                />
-        </RelativeLayout>
-
+                Scale="0.8"
+                Grid.Row="2"
+                Grid.Column="5"/>
+        </Grid>
     </RelativeLayout>
 
 </ContentPage>
