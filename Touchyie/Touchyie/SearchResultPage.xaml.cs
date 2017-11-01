@@ -12,10 +12,13 @@ namespace Touchyie
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class SearchResultPage : ContentPage
 	{
-		public SearchResultPage ()
-		{
-			InitializeComponent ();
-            
+        public SearchResultPage()
+        {
+            InitializeComponent();
+
+            ListView SRListView = Content.FindByName<ListView>("SearchResults_ListView");
+            SRListView.ItemTapped += SRListView_ItemTapped;
+
             SearchResults_ListView.ItemsSource = new List<SearchItem>
             {
                 new SearchItem
@@ -55,15 +58,14 @@ namespace Touchyie
                 },
             };
 
-            
 
-            //SearchResults_ListView.ItemSelected += SearchResults_ListView_ItemSelected;
+
 
         }
 
-        //private async void SearchResults_ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        //{
-        //    await Navigation.PushModalAsync(new PlayerPage());
-        //}
+        private async void SRListView_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            await Navigation.PushModalAsync(new PlayerPage());
+        }
     }
 }
