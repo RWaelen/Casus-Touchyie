@@ -200,12 +200,18 @@
                                             Property=Height,
                                             Factor=1,
                                             Constant=0}">
-                    <ListView x:Name="SearchResults_ListView" VerticalOptions="FillAndExpand"
-                          HasUnevenRows="True">
+                    <!--ItemSelected="ItemSelect"-->
+                    <ListView x:Name="SearchResults_ListView" 
+                              VerticalOptions="FillAndExpand"
+                              HasUnevenRows="True">
+                              
+                                                           
+                              
                         <ListView.ItemTemplate>
                             <DataTemplate>
-                                <ViewCell >
-                                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="5">
+                                <ViewCell>
+                                    <StackLayout 
+                                        Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="5">
                                         <Image 
                                          HeightRequest="100"
                                          Source="{Binding VidThumbnail}"

@@ -15,6 +15,7 @@ namespace Touchyie
 		public SearchResultPage ()
 		{
 			InitializeComponent ();
+            
             SearchResults_ListView.ItemsSource = new List<SearchItem>
             {
                 new SearchItem
@@ -54,6 +55,15 @@ namespace Touchyie
                 },
             };
 
+            
+
+            //SearchResults_ListView.ItemSelected += SearchResults_ListView_ItemSelected;
+
         }
-	}
+
+        //private async void SearchResults_ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        //{
+        //    await Navigation.PushModalAsync(new PlayerPage());
+        //}
+    }
 }
