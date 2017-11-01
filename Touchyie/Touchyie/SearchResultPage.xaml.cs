@@ -20,27 +20,37 @@ namespace Touchyie
                 new SearchItem
                 {
                     VidThumbnail="playvideo.png",
-                    FilmName="Film"
+                    FilmName="Film",
+                    VideoDetail="Deze film gaat over..........",
+                    TijdsDuur="6:23"
                 },
                 new SearchItem
                 {
                     VidThumbnail="playvideo.png",
-                    FilmName="Film"
+                    FilmName="Film 2",
+                    VideoDetail="Deze film gaat over..........",
+                    TijdsDuur="3:28"
                 },
                 new SearchItem
                 {
                     VidThumbnail="playvideo.png",
-                    FilmName="Film"
+                    FilmName="Film 3",
+                    VideoDetail="Deze film gaat over..........",
+                    TijdsDuur="8:45"
                 },
                 new SearchItem
                 {
                     VidThumbnail="playvideo.png",
-                    FilmName="Film"
+                    FilmName="Film 4",
+                    VideoDetail="Deze film gaat over..........",
+                    TijdsDuur="12:25"
                 },
                 new SearchItem
                 {
                     VidThumbnail="playvideo.png",
-                    FilmName="Film"
+                    FilmName="Film 5",
+                    VideoDetail="Deze film gaat over..........",
+                    TijdsDuur="3:33"
                 },
             };
 

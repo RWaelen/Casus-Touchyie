@@ -204,18 +204,32 @@
                           HasUnevenRows="True">
                         <ListView.ItemTemplate>
                             <DataTemplate>
-                                <ViewCell>
-                                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                                        <Image
+                                <ViewCell >
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="5">
+                                        <Image 
                                          HeightRequest="100"
                                          Source="{Binding VidThumbnail}"
                                         />
-                                        <Label
-                                        Text="{Binding FilmName}"
-                                        TextColor="Black"
-                                        VerticalTextAlignment="Center"
-                                        HorizontalOptions="Start"
-                                        />
+                                        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+                                            <Label
+                                                Text="{Binding FilmName}"
+                                                TextColor="Black"
+                                                VerticalTextAlignment="Center"
+                                                HorizontalOptions="Start"
+                                                />
+                                            <Label
+                                                Text="{Binding VideoDetail}"
+                                                TextColor="Gray"
+                                                VerticalTextAlignment="Center"
+                                                HorizontalOptions="Start"
+                                                />
+                                            <Label
+                                                Text="{Binding TijdsDuur}"
+                                                TextColor="Gray"
+                                                VerticalTextAlignment="Center"
+                                                HorizontalOptions="Start"
+                                                />
+                                        </StackLayout>
                                     </StackLayout>
                                 </ViewCell>
                             </DataTemplate>
