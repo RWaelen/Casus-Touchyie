@@ -11,8 +11,7 @@
 namespace Touchyie {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\rikwa\\Dropbox\\Casus mobile J2B1\\Mobile Application\\App\\Touchyie\\Touchyie" +
-        "\\Touchyie\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\marti\\Source\\Repos\\Casus-Touchyie\\Touchyie\\Touchyie\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

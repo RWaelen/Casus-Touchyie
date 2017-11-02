@@ -3,10 +3,159 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Touchyie.RegistratiePage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <RelativeLayout BackgroundColor="#efeded">
+
+
+            <RelativeLayout  BackgroundColor="Red"
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.1,
+                                            Constant=0}" >
+                <Image
+                x:Name="RegtBackButton"
+                Source="ic_navigate_before.png"
+                HorizontalOptions="Start"
+                Scale="1.5"
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=1,
+                                            Constant=0}"
+                />
+
+            </RelativeLayout>
+
+            <RelativeLayout RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.05,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.1,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=.9,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=.8,
+                                            Constant=0}">
+                <ScrollView  RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=1,
+                                            Constant=0}">
+                    <StackLayout Orientation="Vertical"
+                             >
+
+                        <Label Text="Vul je mail in:"
+                       TextColor="Black"
+                       />
+                        <Entry Placeholder="Mail"
+                       />
+                        <Label Text="Vul je gebruikersnaam in:"
+                       TextColor="Black"
+                       />
+                        <Entry Placeholder="Gebruikersnaam"
+                       />
+                        <Label Text="Vul je wachtwoord in:"
+                       TextColor="Black"
+                       />
+                        <Entry Placeholder="Wachtwoord"
+                       />
+                        <Label Text="Vul nog een keer jouw wachtwoord:"
+                       TextColor="Black"
+                       />
+                        <Entry Placeholder="Wachtwoord"
+                       />
+                        <Label/>
+                        <Label Text="Kiez een afbeelding(niet verplicht)."
+                           TextColor="Black"/>
+
+                    </StackLayout>
+                    
+                </ScrollView>
+
+                
+               
+            </RelativeLayout>
+            <Button RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=.9,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=.1,
+                                            Constant=0}"  
+                            x:Name="registratieButton"
+                            Text="opslaan"
+                            BackgroundColor="#77d065"
+                            
+                            />
+           
+        </RelativeLayout>
     </ContentPage.Content>
 </ContentPage>
