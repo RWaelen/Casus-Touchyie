@@ -55,6 +55,32 @@
                                             Factor=1,
                                             Constant=0}"
                 />
+                <Image
+                x:Name="cogwheel"
+                Source="tandwiel.png"
+                Scale="1"
+                HorizontalOptions="End"
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=1,
+                                            Constant=0}"
+                />
 
             </RelativeLayout>
             <RelativeLayout BackgroundColor="Gray"

@@ -175,3 +175,5 @@ C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\a
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\ic_menu.png
+C:\Users\rikwa\source\repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\cogwheel_icon.png
+C:\Users\rikwa\source\repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\tandwiel.png
