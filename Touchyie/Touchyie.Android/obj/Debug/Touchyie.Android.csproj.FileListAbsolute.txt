@@ -160,7 +160,6 @@ C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\r
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\values\styles.xml
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\youtube_logo.jpg
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\netflix_logo.jpg
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\profiel_foto.jpg
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\tv_icon.png
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\avatar_demo.png
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\ic_navigate_before.png

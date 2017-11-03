@@ -56,6 +56,27 @@ namespace Touchyie
                     VideoDetail="Deze film gaat over..........",
                     TijdsDuur="3:33"
                 },
+                new SearchItem
+                {
+                    VidThumbnail="playvideo.png",
+                    FilmName="Film 6",
+                    VideoDetail="Deze film gaat over..........",
+                    TijdsDuur="14:20"
+                },
+                new SearchItem
+                {
+                    VidThumbnail="playvideo.png",
+                    FilmName="Film 7",
+                    VideoDetail="Deze film gaat over..........",
+                    TijdsDuur="7:30"
+                },
+                new SearchItem
+                {
+                    VidThumbnail="playvideo.png",
+                    FilmName="Film 8",
+                    VideoDetail="Deze film gaat over..........",
+                    TijdsDuur="4:02"
+                },
             };
 
 

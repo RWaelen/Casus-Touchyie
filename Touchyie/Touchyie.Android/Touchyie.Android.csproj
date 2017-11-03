@@ -122,9 +122,6 @@
     <AndroidResource Include="Resources\Drawable\netflix_logo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Drawable\profiel_foto.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\Drawable\tv_icon.png" />
   </ItemGroup>
   <ItemGroup>
