@@ -9,12 +9,15 @@ using Xamarin.Forms.Xaml;
 
 namespace Touchyie
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class NetflixPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class NetflixPage : ContentPage
 	{
 		public NetflixPage ()
 		{
 			InitializeComponent ();
-		}
+            var BackButton = new Image();
+            BackButton.GestureRecognizers.Add(new TapGestureRecognizer(OnTap));
+            
+        }
 	}
 }
