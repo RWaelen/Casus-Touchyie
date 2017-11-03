@@ -15,9 +15,28 @@ namespace Touchyie
 		public NetflixPage ()
 		{
 			InitializeComponent ();
-            var BackButton = new Image();
-            BackButton.GestureRecognizers.Add(new TapGestureRecognizer(OnTap));
-            
+            var TapBackButton = new TapGestureRecognizer();
+            TapBackButton.Tapped += TapBackButton_Tapped;
+            NFBackButton.GestureRecognizers.Add(TapBackButton);
+
+            var TapVideoButton = new TapGestureRecognizer();
+            TapVideoButton.Tapped += TapVideoButton_Tapped;
+            Video1.GestureRecognizers.Add(TapVideoButton);
+            Video2.GestureRecognizers.Add(TapVideoButton);
+            Video3.GestureRecognizers.Add(TapVideoButton);
+            Video4.GestureRecognizers.Add(TapVideoButton);
+            Video5.GestureRecognizers.Add(TapVideoButton);
+            Video6.GestureRecognizers.Add(TapVideoButton);
         }
-	}
+
+        private async void TapVideoButton_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new PlayerPage());
+        }
+
+        private async void TapBackButton_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+        }
+    }
 }

@@ -270,7 +270,8 @@
                                                Property=Height,
                                                Factor=1,
                                                Constant=0}" 
-                        Source="playvideo.png">
+                        Source="playvideo.png"
+                        x:Name="Video1">
                         
                     </Image>
 
@@ -295,7 +296,8 @@
                                             Property=Height,
                                             Factor=1,
                                             Constant=0}" 
-                        Source="playvideo.png">
+                        Source="playvideo.png"
+                        x:Name="Video2">
 
                     </Image>
 
@@ -320,7 +322,8 @@
                                             Property=Height,
                                             Factor=1,
                                             Constant=0}" 
-                        Source="playvideo.png">
+                        Source="playvideo.png"
+                        x:Name="Video3">
 
                     </Image>
 
@@ -345,7 +348,8 @@
                                             Property=Height,
                                             Factor=1,
                                             Constant=0}" 
-                        Source="playvideo.png">
+                        Source="playvideo.png"
+                        x:Name="Video4">
 
                     </Image>
                     <Image
@@ -369,7 +373,8 @@
                                             Property=Height,
                                             Factor=1,
                                             Constant=0}" 
-                        Source="playvideo.png">
+                        Source="playvideo.png"
+                        x:Name="Video5">
 
                     </Image>
                     <Image
@@ -393,7 +398,8 @@
                                             Property=Height,
                                             Factor=1,
                                             Constant=0}" 
-                        Source="playvideo.png">
+                        Source="playvideo.png"
+                        x:Name="Video6">
 
                     </Image>
                 </RelativeLayout>
