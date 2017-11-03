@@ -56,6 +56,7 @@
                                             Constant=0}"
                 />
                 <Image
+                    Margin="0,0,10,0"
                 x:Name="cogwheel"
                 Source="tandwiel.png"
                 Scale="1"
@@ -153,14 +154,15 @@
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.82,
+                                            Factor=0.77,
                                             Constant=0}">
-                <StackLayout  Spacing="30" VerticalOptions="Center" >
 
+                <StackLayout  Padding="75"  Spacing="30" VerticalOptions="Center">
                     <Image
                     x:Name="PFP_profiel_foto"
                     Source="avatar_demo.png"
                     Scale="0.8"
+                    VerticalOptions="Start"
                     />
                     <Label
                     Text="Gebruikersnaam"
@@ -178,7 +180,7 @@
                     TextColor="Black"
                     />
                     <Label
-                    Text="Content restrictie: Horror, Actie"
+                    Text="Content restrictie: Geweld, Drugs"
                     HorizontalOptions="Center"
                     TextColor="Black"
                     />
