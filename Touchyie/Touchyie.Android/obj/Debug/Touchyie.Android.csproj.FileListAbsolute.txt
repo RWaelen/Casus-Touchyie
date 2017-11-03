@@ -158,10 +158,6 @@ C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\r
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\layout\tabbar.xml
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\layout\toolbar.xml
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\values\styles.xml
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\youtube_logo.jpg
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\netflix_logo.jpg
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\profiel_foto.jpg
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\tv_icon.png
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\avatar_demo.png
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\ic_navigate_before.png
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\rondje_grijs.png
@@ -174,3 +170,7 @@ C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\a
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\tv_ico.png
+C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\netflix_transparant.png
+C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\youtube_logo.png
+C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\tv_icon.png
