@@ -165,7 +165,7 @@
                 />
 
         </RelativeLayout>
-        <Grid
+        <Grid RowSpacing="20"
             RelativeLayout.XConstraint =
                 "{ConstraintExpression Type=RelativeToParent,
                                         Property=Width,
@@ -182,7 +182,6 @@
                                         Property=Height,
                                         Factor=0.8,
                                         Constant=0}" 
-                
             RelativeLayout.WidthConstraint =
                 "{ConstraintExpression Type=RelativeToParent,
                                         Property=Width,
@@ -190,14 +189,14 @@
                                         Constant=0}"  >
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="1.2*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="1.15*"/>
-                <ColumnDefinition Width="1.15*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
@@ -207,46 +206,79 @@
                 Source="avatar_demo.png"
                 Grid.Row="0"
                 Grid.Column="0"
-                 />
+                Grid.ColumnSpan="1"
+                HorizontalOptions="Start"
+                />
             <Label
                 Text="Gebruikersnaam"
                 TextColor="Black"
                 FontSize="Small"
                 VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Start"
                 Grid.Row="0"
                 Grid.Column="1"
                 Grid.ColumnSpan="2"/>
-            <Image        
-                x:Name="tvButton"
-                Source="tv_icon"
-                HorizontalOptions="Start"
+
+            <Button
+                BackgroundColor="#4588b7"
                 Grid.Row="1"
                 Grid.Column="0"
                 Grid.ColumnSpan="2"/>
+            <Image        
+                x:Name="tvButton"
+                Source="tv_icon.png"
+                HorizontalOptions="CenterAndExpand"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"/>
+            <Label
+                Text="TV"
+                TextColor="Black"
+                FontSize="Large"
+                FontAttributes="Bold"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"/>
+            
+            <Button
+                BackgroundColor="Red"
+                Grid.Row="1"
+                Grid.Column="2"
+                Grid.ColumnSpan="2"/>
             <Image         
                 x:Name="netflixButton"
-                Source="netflix_logo.jpg"
+                Source="netflix_transparant.png"
                 HorizontalOptions="Center"
                 Grid.Row="1"
                 Grid.Column="2"
                 Grid.ColumnSpan="2"
                 />
-            <Image          
-                x:Name="youtubeButton"
-                Source="youtube_logo.jpg"
-                HorizontalOptions="End"
+            <Button
+                BackgroundColor="DarkGray"
                 Grid.Row="1"
                 Grid.Column="4"
                 Grid.ColumnSpan="2"/>
+            
+            <Image          
+                x:Name="youtubeButton"
+                Source="youtube_logo.png"
+                HorizontalOptions="Center"
+                Grid.Row="1"
+                Grid.Column="4"
+                Grid.ColumnSpan="2"/>
+            
             <Image 
                 x:Name="SpraakButton"
                 Source="rondje_grijs.png"
+                Scale="0.8"
                 Grid.Row="2"
                 Grid.Column="5"/>
             <Image 
                 x:Name="SpraakIcon"
                 Source="microfoon_icon.png"
-                Scale="0.8"
+                Scale="0.5"
                 Grid.Row="2"
                 Grid.Column="5"/>
         </Grid>
