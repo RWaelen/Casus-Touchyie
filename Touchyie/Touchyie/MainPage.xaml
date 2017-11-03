@@ -180,7 +180,7 @@
             RelativeLayout.HeightConstraint =
                 "{ConstraintExpression Type=RelativeToParent,
                                         Property=Height,
-                                        Factor=0.82,
+                                        Factor=0.8,
                                         Constant=0}" 
                 
             RelativeLayout.WidthConstraint =
@@ -196,8 +196,8 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="1.15*"/>
+                <ColumnDefinition Width="1.15*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
@@ -208,6 +208,14 @@
                 Grid.Row="0"
                 Grid.Column="0"
                  />
+            <Label
+                Text="Gebruikersnaam"
+                TextColor="Black"
+                FontSize="Small"
+                VerticalTextAlignment="Center"
+                Grid.Row="0"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"/>
             <Image        
                 x:Name="tvButton"
                 Source="tv_icon"
