@@ -104,25 +104,25 @@
                                             Constant=0}">
                     <Image
                         RelativeLayout.XConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.05,
-                                            Constant=0}"
-                RelativeLayout.YConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=0,
-                                            Constant=0}" 
-                RelativeLayout.WidthConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Width,
-                                            Factor=0.25,
-                                            Constant=0}" 
-                RelativeLayout.HeightConstraint =
-                    "{ConstraintExpression Type=RelativeToParent,
-                                            Property=Height,
-                                            Factor=1,
-                                            Constant=0}" 
+                        "{ConstraintExpression Type=RelativeToParent,
+                                               Property=Width,
+                                               Factor=0.05,
+                                               Constant=0}"
+                        RelativeLayout.YConstraint =
+                        "{ConstraintExpression Type=RelativeToParent,
+                                               Property=Height,
+                                               Factor=0,
+                                               Constant=0}" 
+                        RelativeLayout.WidthConstraint =
+                        "{ConstraintExpression Type=RelativeToParent,
+                                               Property=Width,
+                                               Factor=0.25,
+                                               Constant=0}" 
+                        RelativeLayout.HeightConstraint =
+                        "{ConstraintExpression Type=RelativeToParent,
+                                               Property=Height,
+                                               Factor=1,
+                                               Constant=0}" 
                         Source="playvideo.png">
                         
                     </Image>
