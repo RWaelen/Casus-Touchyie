@@ -151,7 +151,6 @@ C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\T
 C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.NetflixPage.xaml.g.cs
 C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.TvPage.xaml.g.cs
 C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.ProfilePage.xaml.g.cs
-C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.RegistratiePage.xaml.g.cs
 C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.dll
 C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.pdb
 C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\bin\Touchyie.Android.apk
@@ -170,4 +169,8 @@ C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\r
 C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\R.cs.flag
 C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\uploadflags.txt
 C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.dll.mdb
+C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Touchyie.Android.dll.mdb
+C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\marti\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb

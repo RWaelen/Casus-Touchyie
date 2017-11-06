@@ -13,7 +13,7 @@ namespace Touchyie
 		{
 			InitializeComponent();
 
-			MainPage = new Touchyie.RegistratiePage();
+			MainPage = new Touchyie.InlogPage();
 		}
 
 		protected override void OnStart ()

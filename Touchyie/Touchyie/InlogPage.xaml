@@ -3,8 +3,126 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Touchyie.InlogPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
-        </StackLayout>
+        <!--kleur geven aan de hele background van de page-->
+        <RelativeLayout BackgroundColor="#efeded">
+
+            <!--een label maken waar de naam van de aplicatie kan zien-->
+            <!--hier kies je waar de label staat-->
+            <RelativeLayout  BackgroundColor="Red"
+                             
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.1,
+                                            Constant=0}" >
+                <!--hier kies je de plaats van de naam in de label -->
+                <Label RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=1,
+                                            Constant=0}" 
+                    Text="Touchyie"
+                       TextColor="White"
+                       FontSize="Large"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"/>
+
+            </RelativeLayout>
+            <!--hier vind je de username, wachtwoord, 'log in' button, registratie,blijf ingelogd en vergeten van wachtwoord -->
+            <StackLayout VerticalOptions="Start"
+                RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.125,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.2,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=.75,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=1,
+                                            Constant=0}">
+                <Label
+                    Text="Vul je gebruikersnaam en wachtwoord in"
+                    TextColor="Black"
+                    />
+                <Entry Placeholder="Username"
+                       VerticalOptions="Center"
+                      
+                       TextColor="Black"
+                       />
+                <Entry Placeholder="Password" 
+                       VerticalOptions="Center"
+                       TextColor="Black"
+                       IsPassword="true"
+                       />
+                <Button x:Name="loginButton"
+                    Text="Login" TextColor="Black"
+                        VerticalOptions="Center"
+                        BackgroundColor="#77D065"
+                        
+                        />
+                <StackLayout Orientation="Horizontal">
+
+                    <Label Text="Blijf Ingelogd"
+                           TextColor="Black"
+                           VerticalOptions="Center"     
+                           />
+                    <Switch HorizontalOptions="EndAndExpand"
+                            />
+                </StackLayout>
+
+                <Label FontAttributes="Italic" 
+                       x:Name="wachtwoord"
+                       Text="Wachtwoord vergeten?"
+                       TextColor="Black"
+                        />
+                <Label FontAttributes="Italic"
+                       x:Name="registreren"
+                       Text="Regristeren"
+                       TextColor="Black"
+                        />
+
+            </StackLayout>
+
+        </RelativeLayout>
     </ContentPage.Content>
 </ContentPage>
