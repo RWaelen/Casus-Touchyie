@@ -176,16 +176,6 @@ C:\Users\Damian\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\
 C:\Users\Damian\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\Damian\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\Damian\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.csprojResolveAssemblyReference.cache
-C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.csproj.CoreCompileInputs.cache
-C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.MainPage.xaml.g.cs
-C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.App.xaml.g.cs
-C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.InlogPage.xaml.g.cs
-C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.PlayerPage.xaml.g.cs
-C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.YoutubePage.xaml.g.cs
-C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.NetflixPage.xaml.g.cs
-C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.TvPage.xaml.g.cs
-C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.ProfilePage.xaml.g.cs
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.dll
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.pdb
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.apk
@@ -213,6 +203,15 @@ C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\X
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.csproj.CoreCompileInputs.cache
+C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.MainPage.xaml.g.cs
+C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.App.xaml.g.cs
+C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.InlogPage.xaml.g.cs
+C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.PlayerPage.xaml.g.cs
+C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.YoutubePage.xaml.g.cs
+C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.NetflixPage.xaml.g.cs
+C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.TvPage.xaml.g.cs
+C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.ProfilePage.xaml.g.cs
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.dll
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.pdb
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\bin\Touchyie.Android.apk
@@ -238,3 +237,4 @@ C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\a
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\spyte\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Android.csprojResolveAssemblyReference.cache
