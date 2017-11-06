@@ -2218,20 +2218,26 @@ namespace Touchyie.Droid
 			// aapt resource value: 0x7f0200a6
 			public const int netflix_transparant = 2130837670;
 			
-			// aapt resource value: 0x7f0200ab
-			public const int notification_template_icon_bg = 2130837675;
+			// aapt resource value: 0x7f0200ad
+			public const int notification_template_icon_bg = 2130837677;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int rondje_grijs = 2130837671;
+			public const int playvideo = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int tandwiel = 2130837672;
+			public const int rondje_grijs = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int tv_icon = 2130837673;
+			public const int star_icon = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int youtube_logo = 2130837674;
+			public const int tandwiel = 2130837674;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int tv_icon = 2130837675;
+			
+			// aapt resource value: 0x7f0200ac
+			public const int youtube_logo = 2130837676;
 			
 			static Drawable()
 			{

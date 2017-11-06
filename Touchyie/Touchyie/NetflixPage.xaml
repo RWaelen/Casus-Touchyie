@@ -3,13 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Touchyie.NetflixPage">
     <ContentPage.Content>
-        <Grid BackgroundColor="#efeded">
+        <Grid BackgroundColor="#efeded" RowSpacing="10">
             <!--Rijverdeling van de grid-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.10*"/>
                 <RowDefinition Height="0.40*"/>
                 <RowDefinition Height="0.10*"/>
-                <RowDefinition Height="0.40*"/>
+                <RowDefinition Height="0.375*"/>
+                <RowDefinition Height="0.025*"/>
+                
             </Grid.RowDefinitions>
             <!--Verdeling Kolommen van de grid, overal * zorgt voor gelijke verdeling van kolommen, dus in dit geval 1/4 van de pagina-->
             <Grid.ColumnDefinitions>
@@ -92,7 +94,8 @@
                     TextColor="Black"
                     FontSize="Large"
                     Grid.Column="1"
-                    Grid.Row="2"                    
+                    Grid.Row="2"   
+                    Grid.ColumnSpan="2"
                     VerticalOptions="Center"
                     HorizontalOptions="Start">
                 
@@ -102,7 +105,8 @@
                 Orientation="Horizontal"
                 Grid.Row="3"
                     Grid.Column="0"
-                    Grid.ColumnSpan="4">
+                    Grid.ColumnSpan="4"
+                    >
 
                 <StackLayout
                     Orientation="Horizontal">
