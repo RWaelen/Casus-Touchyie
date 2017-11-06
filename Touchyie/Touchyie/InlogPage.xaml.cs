@@ -30,7 +30,7 @@ namespace Touchyie
 
         private async void Tapregistreren_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new MainPage());
+            await Navigation.PushModalAsync(new RegistratiePage());
         }
 
         private async void Tapwachtwoord_Tapped(object sender, EventArgs e)
