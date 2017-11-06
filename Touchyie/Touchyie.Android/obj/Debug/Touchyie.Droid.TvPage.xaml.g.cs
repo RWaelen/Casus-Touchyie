@@ -11,7 +11,7 @@
 namespace Touchyie {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\marti\\Source\\Repos\\Casus-Touchyie\\Touchyie\\Touchyie\\TvPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\rikwa\\Source\\Repos\\Casus-Touchyie\\Touchyie\\Touchyie\\TvPage.xaml")]
     public partial class TvPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
