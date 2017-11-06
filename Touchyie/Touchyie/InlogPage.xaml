@@ -3,10 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Touchyie.InlogPage">
     <ContentPage.Content>
+        <!--kleur geven aan de hele background van de page-->
         <RelativeLayout BackgroundColor="#efeded">
 
-
+            <!--een label maken waar de naam van de aplicatie kan zien-->
+            <!--hier kies je waar de label staat-->
             <RelativeLayout  BackgroundColor="Red"
+                             
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
@@ -27,7 +30,7 @@
                                             Property=Height,
                                             Factor=0.1,
                                             Constant=0}" >
-                
+                <!--hier kies je de plaats van de naam in de label -->
                 <Label RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
@@ -55,6 +58,7 @@
                        VerticalTextAlignment="Center"/>
 
             </RelativeLayout>
+            <!--hier vind je de username, wachtwoord, 'log in' button, registratie,blijf ingelogd en vergeten van wachtwoord -->
             <StackLayout VerticalOptions="Start"
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
