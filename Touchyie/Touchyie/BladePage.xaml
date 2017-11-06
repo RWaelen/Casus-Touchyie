@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Touchyie.BladePage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#efeded" RowSpacing="10">
+            
+            <!--Rijen grid defeniëren-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.2*"/>
+            </Grid.RowDefinitions>
+            
+            <!--Colommen grid defeniëren-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!--Nav bar kleur, backbutton en tekst-->
+            <BoxView BackgroundColor="Red"
+                     Grid.Row="0"
+                     Grid.Column="0"/>
+            <Image x:Name="bladerBackButton"
+                   Source="ic_navigate_before.png"
+                   HorizontalOptions="Start"
+                   Scale="1.5"
+                   Grid.Row="0"
+                   Grid.Column="0"/>
+            <Label Text="Touchyie"
+                   TextColor="White"
+                   FontSize="Large"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+            <!--Categorie 1-->
+            <Label Grid.Row="1" Grid.Column="0" Margin="10,0,0,0"
+                Text="Aanbevolen"
+                FontSize="Default"
+                TextColor="Black"
+                VerticalTextAlignment="Center"/>
+            
+            <!--Scrolview met videos categorie 1-->
+            <ScrollView Grid.Row="2" Grid.Column="0"  Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="playvideo"
+                           x:Name="playvideo1"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo2"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo3"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo4"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo5"/>
+                </StackLayout>
+            </ScrollView>
+            
+            <!--Categorie 2-->
+            <Label Grid.Row="3" Grid.Column="0" Margin="10,0,0,0"
+                   Text="Populair"
+                   FontSize="Default"
+                   TextColor="Black"
+                   VerticalTextAlignment="Center"/>
+
+            <!--Scrolview met videos categorie 2-->
+            <ScrollView Grid.Row="4" Grid.Column="0" Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="playvideo"
+                           x:Name="playvideo6"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo7"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo8"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo9"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo10"/>
+                </StackLayout>
+            </ScrollView>
+            
+            <!--Categorie 3-->
+            <Label Grid.Row="5" Grid.Column="0" Margin="10,0,0,0"
+                   Text="Hoge rating"
+                   FontSize="Default"
+                   TextColor="Black"
+                   VerticalTextAlignment="Center"/>
+
+            <!--Scrolview met videos categorie 3-->
+            <ScrollView Grid.Row="6" Grid.Column="0" Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="playvideo"
+                           x:Name="playvideo11"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo12"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo13"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo14"/>
+                    <Image Source="playvideo"
+                           x:Name="playvideo15"/>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
