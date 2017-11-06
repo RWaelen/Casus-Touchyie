@@ -84,12 +84,12 @@
                     Text="Vul je gebruikersnaam en wachtwoord in"
                     TextColor="Black"
                     />
-                <Entry Placeholder="Username"
+                <Entry Placeholder="Gebruikersnaam"
                        VerticalOptions="Center"
                       
                        TextColor="Black"
                        />
-                <Entry Placeholder="Password" 
+                <Entry Placeholder="Wachtwoord" 
                        VerticalOptions="Center"
                        TextColor="Black"
                        IsPassword="true"
@@ -117,7 +117,7 @@
                         />
                 <Label FontAttributes="Italic"
                        x:Name="registreren"
-                       Text="Regristeren"
+                       Text="Registreren"
                        TextColor="Black"
                         />
 

@@ -124,10 +124,10 @@
                     <StackLayout Orientation="Vertical"
                              >
 
-                        <Label Text="Vul je mail in:"
+                        <Label Text="Vul je E-mail in:"
                        TextColor="Black"
                        />
-                        <Entry Placeholder="Mail"
+                        <Entry Placeholder="E-mail"
                        />
                         <Label Text="Vul je gebruikersnaam in:"
                        TextColor="Black"
@@ -139,13 +139,13 @@
                        />
                         <Entry Placeholder="Wachtwoord"
                        />
-                        <Label Text="Vul nog een keer jouw wachtwoord:"
+                        <Label Text="Herhaal wachtwoord:"
                        TextColor="Black"
                        />
                         <Entry Placeholder="Wachtwoord"
                        />
                         <Label/>
-                        <Label Text="Kiez een afbeelding(niet verplicht)."
+                        <Label Text="Kies een afbeelding(niet verplicht)."
                            TextColor="Black"/>
 
                     </StackLayout>
@@ -176,7 +176,7 @@
                                             Factor=.1,
                                             Constant=0}"  
                             x:Name="registratieButton"
-                            Text="opslaan"
+                            Text="Opslaan"
                             BackgroundColor="#77d065"
                             
                             />
