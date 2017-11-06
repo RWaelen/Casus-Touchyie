@@ -12,6 +12,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)BladePage.xaml.cs">
+      <DependentUpon>BladePage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)InlogPage.xaml.cs">
       <DependentUpon>InlogPage.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -29,10 +33,6 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)PlayerPage.xaml.cs">
       <DependentUpon>PlayerPage.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)RegistratiePage.xaml.cs">
-      <DependentUpon>RegistratiePage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)TvPage.xaml.cs">
@@ -91,7 +91,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)RegistratiePage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)BladePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
