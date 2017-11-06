@@ -9,13 +9,14 @@ using Xamarin.Forms.Xaml;
 
 namespace Touchyie
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class PlayerPage : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class PlayerPage : ContentPage
+    {
         int count = 0;
-        public PlayerPage ()
-		{
-			InitializeComponent ();
+        int counter = 0;
+        public PlayerPage()
+        {
+            InitializeComponent();
 
             var tapBackbutton = new TapGestureRecognizer();
             tapBackbutton.Tapped += TapBackbutton_Tapped;
@@ -24,18 +25,38 @@ namespace Touchyie
             var tapPlaybutton = new TapGestureRecognizer();
             tapPlaybutton.Tapped += TapPlaybutton_Tapped;
             playButton.GestureRecognizers.Add(tapPlaybutton);
+
+            var tapFavoriet = new TapGestureRecognizer();
+            tapFavoriet.Tapped += TapFavoriet_Tapped;
+            favorite.GestureRecognizers.Add(tapFavoriet);
+
         }
 
-        private async void TapPlaybutton_Tapped(object sender, EventArgs e)
+        private void TapFavoriet_Tapped(object sender, EventArgs e)
+        {
+            if (counter == 0)
+            {
+                favorite.Source = "sterVol.png";
+                counter = 1;
+            }
+            else
+            {
+                favorite.Source = "sterLeeg.png";
+                counter = 0;
+            }
+        }
+
+        private void TapPlaybutton_Tapped(object sender, EventArgs e)
         {
 
             if (count == 0)
             {
-                playButton.Source = "pauseButton.png";
+                playButton.Source = "pauze.png";
                 count = 1;
             }
-            else {
-                playButton.Source = "playbutton.png";
+            else
+            {
+                playButton.Source = "play.png";
                 count = 0;
             }
         }
