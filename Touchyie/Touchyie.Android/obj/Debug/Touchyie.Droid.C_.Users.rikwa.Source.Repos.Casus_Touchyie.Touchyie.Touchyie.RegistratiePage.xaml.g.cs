@@ -11,7 +11,7 @@
 namespace Touchyie {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\rikwa\\source\\repos\\Casus-Touchyie\\Touchyie\\Touchyie\\RegistratiePage.xaml" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\rikwa\\Source\\Repos\\Casus-Touchyie\\Touchyie\\Touchyie\\RegistratiePage.xaml" +
         "")]
     public partial class RegistratiePage : global::Xamarin.Forms.ContentPage {
         

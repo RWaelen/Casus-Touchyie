@@ -165,11 +165,8 @@ C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\r
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\R.cs.flag
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\uploadflags.txt
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\bin\Debug\Touchyie.Android.dll.mdb
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Touchyie.Android.dll.mdb
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\netflix_transparant.png
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\youtube_logo.png
 C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\res\drawable\tv_icon.png
+C:\Users\rikwa\Source\Repos\Casus-Touchyie\Touchyie\Touchyie.Android\obj\Debug\Touchyie.Droid.RegistratiePage.xaml.g.cs
