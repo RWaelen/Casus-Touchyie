@@ -27,6 +27,31 @@
                                             Property=Height,
                                             Factor=0.1,
                                             Constant=0}" >
+                <Label RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.0,
+                                            Constant=0}"
+                RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0,
+                                            Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=1,
+                                            Constant=0}" 
+                    Text="Touchyie"
+                       TextColor="White"
+                       FontSize="Large"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"/>
                 <Image
                 x:Name="RegtBackButton"
                 Source="ic_navigate_before.png"
@@ -155,7 +180,8 @@
                             BackgroundColor="#77d065"
                             
                             />
-           
+
+            
         </RelativeLayout>
     </ContentPage.Content>
 </ContentPage>
