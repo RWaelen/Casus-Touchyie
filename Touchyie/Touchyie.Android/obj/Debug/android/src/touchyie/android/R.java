@@ -2563,10 +2563,11 @@ containing a value of this type.
         public static final int mr_ic_play_dark=0x7f0200a2;
         public static final int mr_ic_play_light=0x7f0200a3;
         public static final int netflix_transparant=0x7f0200a4;
-        public static final int notification_template_icon_bg=0x7f0200a8;
+        public static final int notification_template_icon_bg=0x7f0200a9;
         public static final int rondje_grijs=0x7f0200a5;
-        public static final int tv_icon=0x7f0200a6;
-        public static final int youtube_logo=0x7f0200a7;
+        public static final int tv_ico=0x7f0200a6;
+        public static final int tv_icon=0x7f0200a7;
+        public static final int youtube_logo=0x7f0200a8;
     }
     public static final class id {
         public static final int action0=0x7f07008b;
