@@ -76,7 +76,8 @@
                                             Property=Height,
                                             Factor=1,
                                             Constant=0}"
-                    Text="Zoekresultaten"
+                    Text="Touchyie"
+                    FontSize="Large"
                     TextColor="White"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"/>

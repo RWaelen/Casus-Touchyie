@@ -58,6 +58,7 @@
             <Label
                 Text="Touchyie"
                 TextColor="White"
+                FontSize="Large"
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Center"
                 RelativeLayout.XConstraint =

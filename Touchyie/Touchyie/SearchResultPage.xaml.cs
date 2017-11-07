@@ -19,6 +19,10 @@ namespace Touchyie
             ListView SRListView = Content.FindByName<ListView>("SearchResults_ListView");
             SRListView.ItemTapped += SRListView_ItemTapped;
 
+            var tapBackButtonImage = new TapGestureRecognizer();
+            tapBackButtonImage.Tapped += TapBackButtonImage_Tapped;
+            BackButton.GestureRecognizers.Add(tapBackButtonImage);
+
             SearchResults_ListView.ItemsSource = new List<SearchItem>
             {
                 new SearchItem
@@ -77,32 +81,14 @@ namespace Touchyie
                     VideoDetail="Deze film gaat over..........",
                     TijdsDuur="4:02"
                 },
-                new SearchItem
-                {
-                    VidThumbnail="playvideo.png",
-                    FilmName="Film 6",
-                    VideoDetail="Deze film gaat over..........",
-                    TijdsDuur="14:20"
-                },
-                new SearchItem
-                {
-                    VidThumbnail="playvideo.png",
-                    FilmName="Film 7",
-                    VideoDetail="Deze film gaat over..........",
-                    TijdsDuur="7:30"
-                },
-                new SearchItem
-                {
-                   VidThumbnail="playvideo.png",
-                    FilmName="Film 8",
-                   VideoDetail="Deze film gaat over..........",
-                    TijdsDuur="4:02"
-                },
+               
             };
 
+        }
 
-
-
+        private async void TapBackButtonImage_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
         }
 
         private async void SRListView_ItemTapped(object sender, ItemTappedEventArgs e)

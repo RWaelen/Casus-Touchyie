@@ -3,11 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Touchyie.NetflixPage">
     <ContentPage.Content>
-        <Grid BackgroundColor="#efeded" RowSpacing="10">
+        <Grid BackgroundColor="#efeded" RowSpacing="0">
             <!--Rijverdeling van de grid-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.10*"/>
-                <RowDefinition Height="0.40*"/>
+                <RowDefinition Height="0.10*"/>
+                <RowDefinition Height="0.30*"/>
                 <RowDefinition Height="0.10*"/>
                 <RowDefinition Height="0.375*"/>
                 <RowDefinition Height="0.025*"/>
@@ -25,10 +26,10 @@
             <BoxView
                 Color="Red"
                 Grid.Row="0"
-                    Grid.Column="0"
-                    Grid.ColumnSpan="4">
-
+                Grid.Column="0"
+                Grid.ColumnSpan="4">
             </BoxView>
+            
             <Label
                 Text="Touchyie"
                 FontSize="Large"
@@ -37,37 +38,52 @@
                 Grid.Row="0"
                 Grid.ColumnSpan="2"
                 HorizontalOptions="Center"
-                VerticalOptions="Center">
-                
-            </Label>
+                VerticalOptions="Center"/>
+
+
             <!--Button die terugverwijst naar vorige pagina-->
             <Image
                 x:Name="NFBackButton"
                 Source="ic_navigate_before.png"
-                BackgroundColor="Red"
                 HorizontalOptions="Start"
                 VerticalOptions="Center"
                 Grid.Column="0"
                 Grid.Row="0"
+                Scale="1.5"
                 />
-                
+            
+            <!--Paginawijzer-->
+            <BoxView
+                Color="Gray"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"/>
+            <BoxView
+                Color="#efeded"
+                Opacity="0.9"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"/>
+            <Label
+                Text="Netflix"
+                TextColor="Black"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"/>
 
             <!--Veld zoek & bladerknop-->
             <StackLayout
                 Grid.Column="1"
-                Grid.Row="1"
+                Grid.Row="2"
                 Grid.ColumnSpan="2"
                 Spacing="10"
                 VerticalOptions="Center"
                 >
                 
-                <Label
-                Text="Netflix"
-                    TextColor="Black"
-                    FontSize="Large"
-                    HorizontalTextAlignment="Center"
-                    >
-                </Label>
+                
                 <!--Button die verwijst naar zoekpagina-->
                 <Button 
                 Text="Zoeken"
@@ -84,7 +100,7 @@
             <!--Favorieten balk lijn-->
             <Image
                 Source="star_icon.png"
-                    Grid.Row="2"
+                    Grid.Row="3"
                     Grid.Column="0"
                     >
                 </Image>
@@ -94,7 +110,7 @@
                     TextColor="Black"
                     FontSize="Large"
                     Grid.Column="1"
-                    Grid.Row="2"   
+                    Grid.Row="3"   
                     Grid.ColumnSpan="2"
                     VerticalOptions="Center"
                     HorizontalOptions="Start">
@@ -103,7 +119,7 @@
             <!--Scrollview met in de stacklayout alle favoriete video's-->
             <ScrollView
                 Orientation="Horizontal"
-                Grid.Row="3"
+                Grid.Row="4"
                     Grid.Column="0"
                     Grid.ColumnSpan="4"
                     >

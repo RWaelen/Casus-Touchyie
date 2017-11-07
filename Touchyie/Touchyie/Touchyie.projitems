@@ -35,6 +35,7 @@
       <DependentUpon>PlayerPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)SearchItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)TvPage.xaml.cs">
       <DependentUpon>TvPage.xaml</DependentUpon>
       <SubType>Code</SubType>

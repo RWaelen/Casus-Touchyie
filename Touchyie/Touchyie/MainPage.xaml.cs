@@ -48,7 +48,7 @@ namespace Touchyie
 
         private async void TapYoutubeImage_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new YoutubePage());
+            await Navigation.PushModalAsync(new NetflixPage());
         }
 
         private async void TapNetflixImage_Tapped(object sender, EventArgs e)
@@ -58,7 +58,7 @@ namespace Touchyie
 
         private async void tapTvImage_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new TvPage());
+            await Navigation.PushModalAsync(new NetflixPage());
         }
     }
 }
