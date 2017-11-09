@@ -3,8 +3,187 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Touchyie.YoutubePage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
-        </StackLayout>
+        <Grid BackgroundColor="#efeded" RowSpacing="0">
+            <!--Rijverdeling van de grid-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.10*"/>
+                <RowDefinition Height="0.08*"/>
+                <RowDefinition Height="0.30*"/>
+                <RowDefinition Height="0.10*"/>
+                <RowDefinition Height="0.375*"/>
+                <RowDefinition Height="0.025*"/>
+
+            </Grid.RowDefinitions>
+            <!--Verdeling Kolommen van de grid, overal * zorgt voor gelijke verdeling van kolommen, dus in dit geval 1/4 van de pagina-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Navigatiebar-->
+            <BoxView
+                Color="Red"
+                Grid.Row="0"
+                Grid.Column="0"
+                Grid.ColumnSpan="4">
+            </BoxView>
+
+            <Label
+                Text="Touchyie"
+                FontSize="Large"
+                TextColor="White"
+                Grid.Column="1"
+                Grid.Row="0"
+                Grid.ColumnSpan="2"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+
+
+            <!--Button die terugverwijst naar vorige pagina-->
+            <Image
+                x:Name="NFBackButton"
+                Source="ic_navigate_before.png"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Grid.Column="0"
+                Grid.Row="0"
+                Scale="1.5"
+                />
+
+            <!--Paginawijzer-->
+            <BoxView
+                Color="Gray"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"/>
+            <BoxView
+                Color="Gray"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"/>
+
+            <RelativeLayout Grid.Row="1"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="4">
+                <BoxView
+                    Color="#efeded"
+                    Opacity="0.9"
+                    RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.0,
+                                            Constant=0}"
+                    RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.019,
+                                            Constant=0}" 
+                    RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                    RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.97,
+                                            Constant=0}" />
+            </RelativeLayout>
+            <Label
+                Text="YouTube"
+                TextColor="Black"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                Grid.Row="1"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"/>
+
+            <!--Veld zoek & bladerknop-->
+            <StackLayout
+                Grid.Column="1"
+                Grid.Row="2"
+                Grid.ColumnSpan="2"
+                Spacing="10"
+                VerticalOptions="Center"
+                >
+
+
+                <!--Button die verwijst naar zoekpagina-->
+                <Button 
+                Text="Zoeken"
+                    x:Name="zoekButton">
+
+                </Button>
+                <!--Button die verwijst naar bladerpagina-->
+                <Button
+                Text="Bladeren"
+                    x:Name="bladerButton">
+
+                </Button>
+            </StackLayout>
+            <!--Favorieten balk lijn-->
+            <Image
+                Source="star_icon.png"
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    >
+            </Image>
+
+            <Label
+                Text="Favorieten"
+                    TextColor="Black"
+                    FontSize="Large"
+                    Grid.Column="1"
+                    Grid.Row="3"   
+                    Grid.ColumnSpan="2"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Start">
+
+            </Label>
+            <!--Scrollview met in de stacklayout alle favoriete video's-->
+            <ScrollView
+                Orientation="Horizontal"
+                Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="4"
+                    >
+
+                <StackLayout
+                    Orientation="Horizontal">
+                    <Image
+                    Source="playvideo.png"
+                        x:Name="Video1">
+                    </Image>
+
+                    <Image
+                    Source="playvideo.png"
+                        x:Name="Video2">
+                    </Image>
+
+                    <Image
+                    Source="playvideo.png"
+                        x:Name="Video3">
+                    </Image>
+
+                    <Image
+                    Source="playvideo.png"
+                        x:Name="Video4">
+                    </Image>
+
+                    <Image
+                    Source="playvideo.png"
+                        x:Name="Video5">
+                    </Image>
+
+                    <Image
+                    Source="playvideo.png"
+                        x:Name="Video6">
+                    </Image>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

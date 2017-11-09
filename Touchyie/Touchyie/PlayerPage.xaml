@@ -87,7 +87,7 @@
                 />
             </RelativeLayout>
             <!--Layout onder de bovenbalk-->
-            <RelativeLayout BackgroundColor="DarkGray"
+            <RelativeLayout BackgroundColor="Gray"
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
@@ -106,7 +106,7 @@
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.08,
+                                            Factor=0.087,
                                             Constant=0}" >
                 <!--balk onder de bovenbalk met opacity 0.9 voor mooi kleur effect-->
                 <BoxView 
@@ -121,13 +121,13 @@
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.02,
+                                            Factor=0.017,
                                             Constant=0}" 
                 
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.96,
+                                            Factor=0.978,
                                             Constant=0}" 
                 
                 RelativeLayout.WidthConstraint =
@@ -138,8 +138,9 @@
                 />
                 <!--Naam speler menu-->
                 <Label
-                Text="Speler Menu"
+                Text="Speler"
                 TextColor="Black"
+                FontSize="Large"
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Center"
                 RelativeLayout.XConstraint =

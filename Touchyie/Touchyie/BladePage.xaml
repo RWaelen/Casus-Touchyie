@@ -3,16 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Touchyie.BladePage">
     <ContentPage.Content>
-        <Grid BackgroundColor="#efeded" RowSpacing="10">
+        <Grid BackgroundColor="#efeded" RowSpacing="0">
             
             <!--Rijen grid defeniëren-->
             <Grid.RowDefinitions>
-                <RowDefinition Height="0.4*"/>
-                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.42*"/>
+                <RowDefinition Height="0.3*"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="0.3*"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="0.3*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="0.2*"/>
             </Grid.RowDefinitions>
@@ -39,16 +40,52 @@
                    Grid.Column="0"
                    HorizontalTextAlignment="Center"
                    VerticalTextAlignment="Center"/>
+            <!--Paginawijzer-->
+            <BoxView BackgroundColor="Gray"
+                     Grid.Row="1"
+                     Grid.Column="0"/>
+            <RelativeLayout Grid.Row="1"
+                            Grid.Column="0">
+                <BoxView BackgroundColor="#efeded"
+                         Opacity="0.9"
+                    RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.0,
+                                            Constant=0}"
+                    RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.017,
+                                            Constant=0}" 
+                    RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                    RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.976,
+                                            Constant=0}" />
+            </RelativeLayout>
+            <Label Text="Bladeren"
+                   TextColor="Black"
+                   FontSize="Large"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
 
             <!--Categorie 1-->
-            <Label Grid.Row="1" Grid.Column="0" Margin="10,0,0,0"
+            <Label Grid.Row="2" Grid.Column="0" Margin="10,0,0,10"
                 Text="Aanbevolen"
                 FontSize="Default"
                 TextColor="Black"
                 VerticalTextAlignment="Center"/>
             
             <!--Scrolview met videos categorie 1-->
-            <ScrollView Grid.Row="2" Grid.Column="0"  Orientation="Horizontal">
+            <ScrollView Grid.Row="3" Grid.Column="0"  Orientation="Horizontal">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="playvideo"
                            x:Name="playvideo1"/>
@@ -64,14 +101,14 @@
             </ScrollView>
             
             <!--Categorie 2-->
-            <Label Grid.Row="3" Grid.Column="0" Margin="10,0,0,0"
+            <Label Grid.Row="4" Grid.Column="0" Margin="10,0,0,10"
                    Text="Populair"
                    FontSize="Default"
                    TextColor="Black"
                    VerticalTextAlignment="Center"/>
 
             <!--Scrolview met videos categorie 2-->
-            <ScrollView Grid.Row="4" Grid.Column="0" Orientation="Horizontal">
+            <ScrollView Grid.Row="5" Grid.Column="0" Orientation="Horizontal">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="playvideo"
                            x:Name="playvideo6"/>
@@ -87,14 +124,14 @@
             </ScrollView>
             
             <!--Categorie 3-->
-            <Label Grid.Row="5" Grid.Column="0" Margin="10,0,0,0"
+            <Label Grid.Row="6" Grid.Column="0" Margin="10,0,0,10"
                    Text="Hoge rating"
                    FontSize="Default"
                    TextColor="Black"
                    VerticalTextAlignment="Center"/>
 
             <!--Scrolview met videos categorie 3-->
-            <ScrollView Grid.Row="6" Grid.Column="0" Orientation="Horizontal">
+            <ScrollView Grid.Row="7" Grid.Column="0" Orientation="Horizontal">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="playvideo"
                            x:Name="playvideo11"/>

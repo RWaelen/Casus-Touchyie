@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <RelativeLayout BackgroundColor="#efeded">
 
-
+            <!--Navbar-->
             <RelativeLayout  BackgroundColor="Red"
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
@@ -27,6 +27,8 @@
                                             Property=Height,
                                             Factor=0.1,
                                             Constant=0}" >
+                
+                <!--App naam-->
                 <Label RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
@@ -52,6 +54,8 @@
                        FontSize="Large"
                        HorizontalTextAlignment="Center"
                        VerticalTextAlignment="Center"/>
+                
+                <!--BackButton-->
                 <Image
                 x:Name="RegtBackButton"
                 Source="ic_navigate_before.png"
@@ -78,7 +82,6 @@
                                             Factor=1,
                                             Constant=0}"
                 />
-
             </RelativeLayout>
 
             <RelativeLayout RelativeLayout.XConstraint =
@@ -101,6 +104,8 @@
                                             Property=Height,
                                             Factor=.8,
                                             Constant=0}">
+                
+                <!--Scrollview-->
                 <ScrollView  RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
@@ -121,6 +126,8 @@
                                             Property=Height,
                                             Factor=1,
                                             Constant=0}">
+
+                    <!--Stacklayout met alle gegevens die ingevuld moeten worden voor een account aan te maken-->
                     <StackLayout Orientation="Vertical"
                              >
 
@@ -138,23 +145,24 @@
                        TextColor="Black"
                        />
                         <Entry Placeholder="Wachtwoord"
+                               IsPassword="True"
                        />
                         <Label Text="Herhaal wachtwoord:"
                        TextColor="Black"
                        />
                         <Entry Placeholder="Wachtwoord"
+                               IsPassword="True"
                        />
                         <Label/>
                         <Label Text="Kies een afbeelding(niet verplicht)."
                            TextColor="Black"/>
 
                     </StackLayout>
-                    
-                </ScrollView>
 
-                
-               
+                </ScrollView>
             </RelativeLayout>
+            
+            <!--Button aan de ondekant van de pagina om het account op te slaan-->
             <Button RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,

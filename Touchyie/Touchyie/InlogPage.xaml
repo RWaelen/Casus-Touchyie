@@ -102,7 +102,7 @@
                         />
                 <StackLayout Orientation="Horizontal">
 
-                    <Label Text="Blijf Ingelogd"
+                    <Label Text="Blijf Ingelogd" 
                            TextColor="Black"
                            VerticalOptions="Center"     
                            />
@@ -110,15 +110,17 @@
                             />
                 </StackLayout>
 
-                <Label FontAttributes="Italic" 
+                <Label FontAttributes="Italic"
                        x:Name="wachtwoord"
                        Text="Wachtwoord vergeten?"
                        TextColor="Black"
+                       HorizontalOptions="Start"
                         />
                 <Label FontAttributes="Italic"
                        x:Name="registreren"
                        Text="Registreren"
                        TextColor="Black"
+                       HorizontalOptions="Start"
                         />
 
             </StackLayout>

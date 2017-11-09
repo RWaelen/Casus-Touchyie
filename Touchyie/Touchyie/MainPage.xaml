@@ -87,7 +87,7 @@
         </RelativeLayout>
 
         <!--PaginaWijzer-->
-        <RelativeLayout BackgroundColor="DarkGray"
+        <RelativeLayout BackgroundColor="Gray"
                 RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Width,
@@ -121,13 +121,13 @@
                 RelativeLayout.YConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.02,
+                                            Factor=0.017,
                                             Constant=0}" 
                 
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.96,
+                                            Factor=0.978,
                                             Constant=0}" 
                 
                 RelativeLayout.WidthConstraint =
@@ -139,6 +139,7 @@
             <Label
                 Text="Main Menu"
                 TextColor="Black"
+                FontSize="Large"
                 VerticalTextAlignment="Center"
                 HorizontalTextAlignment="Center"
                 RelativeLayout.XConstraint =
@@ -166,7 +167,7 @@
                 />
 
         </RelativeLayout>
-        <Grid RowSpacing="20"
+        <Grid RowSpacing="20" ColumnSpacing="2"
             RelativeLayout.XConstraint =
                 "{ConstraintExpression Type=RelativeToParent,
                                         Property=Width,

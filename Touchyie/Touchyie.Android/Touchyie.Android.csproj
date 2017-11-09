@@ -158,9 +158,6 @@
     <AndroidResource Include="Resources\Drawable\volumeOn.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Drawable\playvideo.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\Drawable\youtube_logo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -168,6 +165,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\netflix_transparant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\playvideo.png" />
   </ItemGroup>
   <Import Project="..\Touchyie\Touchyie.projitems" Label="Shared" Condition="Exists('..\Touchyie\Touchyie.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

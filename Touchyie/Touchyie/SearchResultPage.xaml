@@ -133,6 +133,7 @@
                                             Factor=1,
                                             Constant=0}" 
                 />
+                <!--zoekbalk-->
                 <SearchBar BackgroundColor="LightGray"                
                     RelativeLayout.XConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
@@ -203,12 +204,13 @@
                                             Property=Height,
                                             Factor=1,
                                             Constant=0}">
-
+                    <!--lijst met zoekresultaten weergeven in scrollview-->
                     <ListView x:Name="SearchResults_ListView" 
                               VerticalOptions="FillAndExpand"
                               HasUnevenRows="True">
                         <ListView.ItemTemplate>
                             <DataTemplate>
+                                <!--lijstitem in viewcell verdeeld in image en videodetails-->
                                 <ViewCell>
                                     <StackLayout 
                                         Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="5">

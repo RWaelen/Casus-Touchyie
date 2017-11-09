@@ -14,22 +14,27 @@ namespace Touchyie
 			InitializeComponent();
             
             //--Make image buttons--//
+            //--tv button naar tvpage(netflixpage)
             var tapTvImage = new TapGestureRecognizer();
             tapTvImage.Tapped += tapTvImage_Tapped;
             tvButton.GestureRecognizers.Add(tapTvImage);
 
+            //--netflix button naar tvpage(netflixpage)
             var tapNetflixImage = new TapGestureRecognizer();
             tapNetflixImage.Tapped += TapNetflixImage_Tapped;            
             netflixButton.GestureRecognizers.Add(tapNetflixImage);
 
+            //--youtube button naar tvpage(netflixpage)
             var tapYoutubeImage = new TapGestureRecognizer();
             tapYoutubeImage.Tapped += TapYoutubeImage_Tapped; ;
             youtubeButton.GestureRecognizers.Add(tapYoutubeImage);
 
+            //--profielfoto naar profilepage
             var tapProfileImage = new TapGestureRecognizer();
             tapProfileImage.Tapped += TapProfileImage_Tapped;
             profiel_foto.GestureRecognizers.Add(tapProfileImage);
 
+            //--back button naar vorige pagina
             var tapBackButtonImage = new TapGestureRecognizer();
             tapBackButtonImage.Tapped += TapBackButtonImage_Tapped;
             BackButton.GestureRecognizers.Add(tapBackButtonImage);
@@ -48,7 +53,7 @@ namespace Touchyie
 
         private async void TapYoutubeImage_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NetflixPage());
+            await Navigation.PushModalAsync(new YoutubePage());
         }
 
         private async void TapNetflixImage_Tapped(object sender, EventArgs e)
@@ -58,7 +63,7 @@ namespace Touchyie
 
         private async void tapTvImage_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NetflixPage());
+            await Navigation.PushModalAsync(new TvPage());
         }
     }
 }

@@ -7,7 +7,7 @@
             <!--Rijverdeling van de grid-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.10*"/>
-                <RowDefinition Height="0.10*"/>
+                <RowDefinition Height="0.08*"/>
                 <RowDefinition Height="0.30*"/>
                 <RowDefinition Height="0.10*"/>
                 <RowDefinition Height="0.375*"/>
@@ -29,7 +29,6 @@
                 Grid.Column="0"
                 Grid.ColumnSpan="4">
             </BoxView>
-            
             <Label
                 Text="Touchyie"
                 FontSize="Large"
@@ -58,12 +57,35 @@
                 Grid.Row="1"
                 Grid.Column="0"
                 Grid.ColumnSpan="4"/>
-            <BoxView
-                Color="#efeded"
-                Opacity="0.9"
-                Grid.Row="1"
-                Grid.Column="0"
-                Grid.ColumnSpan="4"/>
+            
+            <RelativeLayout Grid.Row="1"
+                            Grid.Column="0"
+                            Grid.ColumnSpan="4">
+                <BoxView
+                    Color="#efeded"
+                    Opacity="0.9"
+                    RelativeLayout.XConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=0.0,
+                                            Constant=0}"
+                    RelativeLayout.YConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.019,
+                                            Constant=0}" 
+                    RelativeLayout.WidthConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Width,
+                                            Factor=1,
+                                            Constant=0}" 
+                    RelativeLayout.HeightConstraint =
+                    "{ConstraintExpression Type=RelativeToParent,
+                                            Property=Height,
+                                            Factor=0.97,
+                                            Constant=0}" />
+            </RelativeLayout>
+            
             <Label
                 Text="Netflix"
                 TextColor="Black"

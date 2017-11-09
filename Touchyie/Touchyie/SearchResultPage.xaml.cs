@@ -16,15 +16,18 @@ namespace Touchyie
         {
             InitializeComponent();
 
+            // lijst aanmaken voor zoekresultaten
             ListView SRListView = Content.FindByName<ListView>("SearchResults_ListView");
             SRListView.ItemTapped += SRListView_ItemTapped;
 
+            //--back button naar vorige pagina
             var tapBackButtonImage = new TapGestureRecognizer();
             tapBackButtonImage.Tapped += TapBackButtonImage_Tapped;
             BackButton.GestureRecognizers.Add(tapBackButtonImage);
 
             SearchResults_ListView.ItemsSource = new List<SearchItem>
             {
+                //Items voor de listview toevoegen voor zoekresultaten
                 new SearchItem
                 {
                     VidThumbnail="playvideo.png",
@@ -85,6 +88,7 @@ namespace Touchyie
             };
 
         }
+
 
         private async void TapBackButtonImage_Tapped(object sender, EventArgs e)
         {
