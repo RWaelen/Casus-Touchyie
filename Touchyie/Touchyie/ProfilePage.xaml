@@ -27,6 +27,32 @@
                                         Property=Height,
                                         Factor=0.1,
                                         Constant=0}" >
+                <Label
+                RelativeLayout.XConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Width,
+                                        Factor=0,
+                                        Constant=0}"
+                RelativeLayout.YConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Height,
+                                        Factor=0,
+                                        Constant=0}" 
+                RelativeLayout.WidthConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Width,
+                                        Factor=1,
+                                        Constant=0}" 
+                RelativeLayout.HeightConstraint =
+                "{ConstraintExpression Type=RelativeToParent,
+                                        Property=Height,
+                                        Factor=1,
+                                        Constant=0}" 
+                    Text="Touchyie"
+                    TextColor="White"
+                    FontSize="Large"
+                    HorizontalTextAlignment="Center"
+                    VerticalTextAlignment="Center"/>
 
                 <!--Backbutton image-->
                 <Image
@@ -103,7 +129,7 @@
                 RelativeLayout.HeightConstraint =
                     "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.08,
+                                            Factor=0.085,
                                             Constant=0}">
                 
                 <Label BackgroundColor="#efeded"
@@ -115,7 +141,7 @@
                     RelativeLayout.YConstraint =
                         "{ConstraintExpression Type=RelativeToParent,
                                             Property=Height,
-                                            Factor=0.015,
+                                            Factor=0.014,
                                             Constant=0}" 
                     RelativeLayout.WidthConstraint =
                         "{ConstraintExpression Type=RelativeToParent,
@@ -129,6 +155,7 @@
                                             Constant=0}"
                     Text="Profiel"
                     TextColor="Black"
+                    FontSize="Large"
                     VerticalTextAlignment="Center"
                     HorizontalTextAlignment="Center"
                     Opacity="0.9"
